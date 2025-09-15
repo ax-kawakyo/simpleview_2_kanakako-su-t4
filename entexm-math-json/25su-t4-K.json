@@ -1,0 +1,210 @@
+[
+  {
+    "problem_id": "問4",
+    "problem_flow": [
+      {
+        "type": "text_block",
+        "class": "normal",
+        "content": "右の図において,直線①は関数y=-xのグラフであり,曲線②は関数y=ax²のグラフ,曲線③は関数y=4/xのグラフである。\n点Aは直線①と曲線②との交点で,そのx座標は-8である。点Bは曲線②上の点で、線分ABはx軸に平行である。点Cは線分AB上の点で,AC:CB=1:3である。\nまた、点Dは曲線③上の点で、線分BDはy軸に平行である。点Eは曲線③上の点で、そのx座標は-6である。\nさらに、原点をOとするとき,点Fは直線①上の点で、AO:OF=4:3であり,そのx座標は正である。\nこのとき、次の問いに答えなさい。"
+      },
+      {
+        "type": "image_gallery",
+        "paths": [
+          "entexm-math-images/25q4_graph.png"
+        ]
+      },
+      {
+        "type": "title_block",
+        "content": "(ア)"
+      },
+      {
+        "type": "text_block",
+        "class": "statement",
+        "content": "曲線②の式y=ax²のaの値として正しいものを次の1~6の中から1つ選び、その番号を答えなさい。"
+      },
+      {
+        "type": "options_block",
+        "options": [
+          {
+            "label": "1",
+            "value": "a=1/8"
+          },
+          {
+            "label": "2",
+            "value": "a=1/6"
+          },
+          {
+            "label": "3",
+            "value": "a=1/4"
+          },
+          {
+            "label": "4",
+            "value": "a=3/8"
+          },
+          {
+            "label": "5",
+            "value": "a=1/2"
+          },
+          {
+            "label": "6",
+            "value": "a=3/4"
+          }
+        ]
+      },
+      {
+        "type": "title_block",
+        "content": "(イ)"
+      },
+      {
+        "type": "text_block",
+        "class": "statement",
+        "content": "直線EFの式をy=mx+n とするときの(i) m の値と,(ii) n の値として正しいものを,それぞれ次の1~6の中から1つずつ選び、その番号を答えなさい。"
+      },
+      {
+        "type": "options_block",
+        "title": "(i) mの値",
+        "options": [
+          {
+            "label": "1",
+            "value": "m=-4/3"
+          },
+          {
+            "label": "2",
+            "value": "m=-7/6"
+          },
+          {
+            "label": "3",
+            "value": "m=-8/9"
+          },
+          {
+            "label": "4",
+            "value": "m=-5/6"
+          },
+          {
+            "label": "5",
+            "value": "m=-2/3"
+          },
+          {
+            "label": "6",
+            "value": "m=-4/9"
+          }
+        ]
+      },
+      {
+        "type": "options_block",
+        "title": "(ii) nの値",
+        "options": [
+          {
+            "label": "1",
+            "value": "n=-16/3"
+          },
+          {
+            "label": "2",
+            "value": "n=-9/2"
+          },
+          {
+            "label": "3",
+            "value": "n=-4"
+          },
+          {
+            "label": "4",
+            "value": "n=-7/2"
+          },
+          {
+            "label": "5",
+            "value": "n=-10/3"
+          },
+          {
+            "label": "6",
+            "value": "n=-3"
+          }
+        ]
+      },
+      {
+        "type": "title_block",
+        "content": "(ウ)"
+      },
+      {
+        "type": "text_block",
+        "class": "statement",
+        "content": "次の□の中の「か」「き」「く」「け」にあてはまる数字をそれぞれ0~9の中から1つずつ選び、その数字を答えなさい。"
+      },
+      {
+        "type": "text_block",
+        "class": "normal",
+        "content": "線分CD上に点Gを,CG=GD となるようにとる。このときの,三角形COGと三角形 DGF の面積の比を最も簡単な整数の比で表すと, △COG:△DGF= [かき]:[くけ] である。"
+      },
+      {
+        "type": "title_block",
+        "content": "【解説】",
+        "class": "section_title"
+      },
+      {
+        "type": "text_block",
+        "class": "normal",
+        "content": "準備\n①式、座標をすべて表示\n②対象の図形を囲む\n③面積、比の問題\nⅰ)求積か　ⅱ)相似比か"
+      },
+      {
+        "type": "image_gallery",
+        "paths": [
+          "entexm-math-views/25-t4-u-junbi.png"
+        ]
+      },
+      {
+        "type": "text_block",
+        "class": "success",
+        "content": "解法1　直接求積\n①三角形を矩形で囲う\n②座標をうめて、四角形から三角形を引いていく"
+      },
+      {
+        "type": "image_gallery",
+        "paths": [
+          "entexm-math-views/25-t4-u1.png"
+        ]
+      },
+      {
+        "type": "text_block",
+        "class": "success",
+        "content": "解法1→3への足掛かり\n①求積→△COGのほうを対角線法で面積を求める\n②ここで、解法3を思いつけると楽"
+      },
+      {
+        "type": "image_gallery",
+        "paths": [
+          "entexm-math-views/25-t4-u1_3.png"
+        ]
+      },
+      {
+        "type": "text_block",
+        "class": "muted",
+        "content": "解法2　等積変形\n①ここでは、底辺比が同じ→高さ比に注目\n②△COGの頂点Oを直線DFへ直線CDに平行移動"
+      },
+      {
+        "type": "image_gallery",
+        "paths": [
+          "entexm-math-views/25-t4-u2.png"
+        ]
+      },
+      {
+        "type": "text_block",
+        "class": "explanation",
+        "content": "解法3\n①斜交座標系→比は変わらない"
+      },
+      {
+        "type": "image_gallery",
+        "paths": [
+          "entexm-math-views/25-t4-u3.png"
+        ]
+      },
+      {
+        "type": "text_block",
+        "class": "notice",
+        "content": "解法4\n（裏技）外積ad-bcは平行四辺形面積"
+      },
+      {
+        "type": "image_gallery",
+        "paths": [
+          "entexm-math-views/25-t4-u4.png"
+        ]
+      }
+    ]
+  }
+]
