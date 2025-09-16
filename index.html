@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -195,7 +196,7 @@
                 </div>
                 <div class="form-group">
                     <label for="print-image-size">印刷時の画像最大幅 (%)</label>
-                    <input type="number" id="print-image-size" min="10" max="150" step="5" value="60">
+                    <input type="number" id="print-image-size" min="10" max="200" step="5" value="60">
                 </div>
                 <hr>
                 <div class="form-group">
@@ -361,7 +362,7 @@ function handleImageControls(event) {
             currentWidth -= 10;
         }
 
-        currentWidth = Math.max(10, Math.min(150, currentWidth)); // Clamp width between 10% and 150%
+        currentWidth = Math.max(10, Math.min(200, currentWidth)); // Clamp width between 10% and 200%
 
         img.dataset.width = currentWidth;
         img.style.width = `${currentWidth}%`;
@@ -417,7 +418,7 @@ function setupModal() {
             printStatus.textContent = '';
             
             // Apply dynamic print styles
-            const imageSize = Math.max(10, Math.min(150, parseInt(imageSizeInput.value, 10) || 60));
+            const imageSize = Math.max(10, Math.min(200, parseInt(imageSizeInput.value, 10) || 60));
             const fontSize = Math.max(8, Math.min(20, parseInt(fontSizeInput.value, 10) || 11));
 
             printStyleOverride.innerHTML = `
