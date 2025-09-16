@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -367,6 +366,15 @@ function handleImageControls(event) {
         img.dataset.width = currentWidth;
         img.style.width = `${currentWidth}%`;
         widthValueDisplay.textContent = `${currentWidth}%`;
+
+        // Remove the max-width constraint when scaling beyond 100%
+        // to allow the image to overflow its container.
+        if (currentWidth > 100) {
+            img.style.maxWidth = 'none';
+        } else {
+            // When at or below 100%, re-apply the max-width from the CSS by removing the inline style.
+            img.style.maxWidth = '';
+        }
     }
 }
 
