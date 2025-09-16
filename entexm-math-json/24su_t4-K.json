@@ -5,6 +5,7 @@
       {
         "type": "text_block",
         "class": "normal",
+        "fontSize": "0.8em",
         "content": "右の図において,直線①は関数y=-xのグラフ,直線②は関数y=-3xのグラフであり,曲線③は関数y=ax²のグラフである。\n点Aは直線①と曲線③との交点で,そのx座標は-6である。点Bは曲線③上の点で、線分ABはx軸に平行である。点Cは直線②と線分ABとの交点である。\nまた、点Dはx軸上の点で、線分ADはy軸に平行である。点Eは線分AD上の点で,AE=EDである。\nさらに、原点をOとするとき,点Fは直線②上の点で,CO:OF=2:1であり,そのx座標は正である。\nこのとき、次の問いに答えなさい。"
       },
       {
@@ -12,7 +13,7 @@
         "images": [
           {
             "path": "entexm-math-images/24q4_graph.png",
-            "width": 80,
+            "width": 100,
             "caption": "グラフ1"
           }
         ]
@@ -24,11 +25,12 @@
       {
         "type": "text_block",
         "class": "statement",
+        "fontSize": "0.8em",
         "content": "曲線③の式 y=ax²のaの値として正しいものを次の1~6の中から1つ選び、その番号を答えなさい。"
       },
       {
         "type": "options_block",
-        "fontSize": "90%",
+        "fontSize": "0.8em",
         "options": [
           {
             "label": "1",
@@ -63,11 +65,13 @@
       {
         "type": "text_block",
         "class": "statement",
+        "fontSize": "0.8em",
         "content": "直線EFの式をy=mx+nとするときの(i)mの値と, (ii)nの値として正しいものを, それぞれ次の1~6の中から1つずつ選び、その番号を答えなさい。"
       },
       {
         "type": "options_block",
         "title": "(i) mの値",
+        "fontSize": "0.8em",
         "options": [
           {
             "label": "1",
@@ -98,6 +102,7 @@
       {
         "type": "options_block",
         "title": "(ii) nの値",
+        "fontSize": "0.8em",
         "options": [
           {
             "label": "1",
@@ -132,6 +137,7 @@
       {
         "type": "text_block",
         "class": "statement",
+        "fontSize": "0.8em",
         "content": "線分BD上に点Gを,三角形CEFと三角形COGの面積の比が△CEF:△COG=3:2で,そのx座標が正となるようにとる。このときの,点Gのx座標は[おか]/[き]である。"
       },
       {
@@ -143,6 +149,7 @@
       {
         "type": "text_block",
         "class": "normal",
+        "fontSize": "0.8em",
         "content": "準備\n①式、座標をすべて表示\n②対象の図形を囲む\n③面積、比の問題\nⅰ)求積か　ⅱ)相似比か"
       },
       {
@@ -150,7 +157,7 @@
         "images": [
           {
             "path": "entexm-math-views/24-t4-u-junbi.png",
-            "width": 80,
+            "width": 100,
             "caption": "図1 (準備)"
           }
         ]
@@ -158,6 +165,7 @@
       {
         "type": "text_block",
         "class": "normal",
+        "fontSize": "0.8em",
         "content": "解法1　直接求積（矩形）\n①三角形を矩形で囲う\n②座標をうめる　→　点Gをおく（直線DBを使う）\n③四角形から三角形を引いていく"
       },
       {
@@ -165,7 +173,7 @@
         "images": [
           {
             "path": "entexm-math-views/24-t4-u1.png",
-            "width": 80,
+            "width": 100,
             "caption": "図2 (解法1)"
           }
         ]
@@ -173,6 +181,7 @@
       {
         "type": "text_block",
         "class": "muted",
+        "fontSize": "0.8em",
         "content": "解法1_1　直接求積（軸平行）\n①線分CH、線分OI・・・けっこうきつい（レ）"
       },
       {
@@ -180,13 +189,14 @@
         "images": [
           {
             "path": "entexm-math-views/24-t4-u1_1.png",
-            "width": 80
+            "width": 100
           }
         ]
       },
       {
         "type": "text_block",
         "class": "normal",
+        "fontSize": "0.8em",
         "content": "解法2　等積変形　→　比\n面積比3:2、底辺比3:2　→　高さ比1:1\n①△CEFの頂点Eを直線BD上に移動し点H\n②点Hの座標は、直線EHと直線BDの交点（連立方程式）\n③直線BD、直線OCの交点Mは、線分GHの中点（連立方程式）\n・・・けっこうたいへん（レ）"
       },
       {
@@ -194,7 +204,7 @@
         "images": [
           {
             "path": "entexm-math-views/24-t4-u2.png",
-            "width": 80,
+            "width": 100,
             "caption": "図3 (解法2)"
           }
         ]
@@ -202,6 +212,7 @@
       {
         "type": "text_block",
         "class": "explanation",
+        "fontSize": "0.8em",
         "content": "解法3　技　解法2から気づけるか\n面積比3:2、底辺比3:2　→　高さ比1:1\n①直線EGと直線COの交点Mは、線分EGの中点。\n②点E (-6,3)、点M (m,-3m)、点G (g,-1/2g+3)"
       },
       {
@@ -209,7 +220,7 @@
         "images": [
           {
             "path": "entexm-math-views/24-t4-u3.png",
-            "width": 80,
+            "width": 100,
             "caption": "図4 (解法3)"
           }
         ]
