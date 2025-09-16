@@ -321,7 +321,7 @@ function handleImageControls(event) {
             currentWidth -= 10;
         }
 
-        currentWidth = Math.max(10, Math.min(150, currentWidth)); // Clamp width between 10% and 100%
+        currentWidth = Math.max(10, Math.min(100, currentWidth)); // Clamp width between 10% and 100%
 
         img.dataset.width = currentWidth;
         img.style.width = `${currentWidth}%`;
